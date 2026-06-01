@@ -10,7 +10,7 @@
 
     <title>Bem-vindo(a) ao meu portfólio!</title>
 
-    <body>
+    <body class="fade-bg">
 
         <header>
             
@@ -28,9 +28,20 @@
                 </div>
 
                 <!-- esse é o certo -->
-                <img src="img/7c78b41f-1a3b-4bf7-9f44-d2d3a4390d8f.jpg" class="rounded-circle mb-3" width="150" alt="Foto de perfil">
+                <img src="img/7c78b41f-1a3b-4bf7-9f44-d2d3a4390d8f.jpg" class="rounded-circle mb-3" width="170" alt="Foto de perfil">
 
-                <img src="C:\Users\almoxarifado\Desktop\Nicolas Gabriel" class="rounded-circle mb-3" width="150" alt="Foto de perfil">
+                <div id="modal">
+
+                    <span id="fechar">&times;</span>
+                
+                    <img
+                        id="imagemModal"
+                        src="7c78b41f-1a3b-4bf7-9f44-d2d3a4390d8f.jpg"
+                        alt="Foto ampliada">
+                
+                </div>
+                
+                <script src="script.js"></script>
 
             </section>
             
@@ -63,11 +74,11 @@
                 <h2>Habilidades</h2>
 
                 <div class="skills">
-                    <div class="skill">HTML</div>
-                    <div class="skill">CSS</div>
-                    <div class="skill">FlexBox</div>
-                    <div class="skill">JavaScript</div>
-                    <div class="skill">SQL</div>
+                    <div class="skill1">HTML</div>
+                    <div class="skill2">CSS</div>
+                    <div class="skill3">FlexBox</div>
+                    <div class="skill4">JavaScript</div>
+                    <div class="skill5">SQL</div>
 
                 </div>
 
@@ -79,16 +90,27 @@
     
                         <div class="evento">
     
+                            <h3>Gestão da Tecnologia da Informação - Fatec de Jahu</h3>
+                            <p>2024 - ...</p> 
+                            <br>
+                            <br>
+    
+                        </div>
+                       
+                        <div class="evento">
+    
                             <h3>Curso Técnico Administrativo Bancário - RASC</h3>
                             <p>2021 - 2023</p>
                         </div>
-    
+                        <br>
+                        <br>
+                        
                         <div class="evento">
     
-                            <h3>Qualquer outro curso ae</h3>
-    
+                            <h3>E.E."Profº Laurindo Battaiola (CENE)"
+                            </h3>
+                            <p>Ensino Médio 2022 - 2023</p>
                         </div>
-                        
             </section>
 
             <section id="projetos" class="projetos">
@@ -150,7 +172,9 @@
                     <textarea placeholder="Observações..."></textarea>
             
                     <button type="submit">
-                        Enviar
+                        <a href="mailto:nicolas.gabriel.garcez17@gmail.com?subject=Contato%20Portfolio">
+                            Enviar
+                        </a>
                     </button>
             
                 </form>            
