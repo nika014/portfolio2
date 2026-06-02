@@ -3,11 +3,11 @@
 <html lang="pt-br">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-github" href="https://github.com/nika014" target="_blank"></i>
+    <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/nicolas-gabriel-6a5b8b19b/" target="_blank"></i>
 
 <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem-vindo(a) ao meu portfólio!</title>
 
     <body class="fade-bg">
@@ -28,35 +28,22 @@
                 </div>
 
                 <!-- esse é o certo -->
-                <img src="img/7c78b41f-1a3b-4bf7-9f44-d2d3a4390d8f.jpg" class="rounded-circle mb-3" width="170" alt="Foto de perfil">
-
-                <div id="modal">
-
-                    <span id="fechar">&times;</span>
-                
-                    <img
-                        id="imagemModal"
-                        src="7c78b41f-1a3b-4bf7-9f44-d2d3a4390d8f.jpg"
-                        alt="Foto ampliada">
-                
-                </div>
-                
-                <script src="script.js"></script>
+                <img id="fotoPerfil" src="img/7c78b41f-1a3b-4bf7-9f44-d2d3a4390d8f.jpg" class="rounded-circle mb-3" width="170" alt="Foto de perfil">
 
             </section>
             
             <h1>Nicolas Gabriel</h1>
                 <nav>
-                    <a href="">Sobre</a>
-                    <a href="">Projetos</a>
-                    <a href="">Contato</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#contato">Contato</a>
                 </nav>
 
         </header>
 
         <main>
             <section id="sobre" class="sobre">
-                <img src="" alt="Foto de Perfil">
+                <img id="fotoPerfil" src="img/WhatsApp Image 2026-06-02 at 15.05.13.jpeg" alt="Foto de Perfil">
                 <div>
 
                     <h2>Sobre mim</h2>
@@ -194,19 +181,37 @@
 
         </main>
 
+            <script src="script.js"></script>
+            <script> const foto = document.getElementById("fotoPerfil");</script>
+
         <footer>
 
             <p>© 2026 Nicolas Gabriel Garcez Fernandes Pinto</p>
 
             <div class="redes">
 
-                <a href="#">GitHub</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Instagram</a>
+                <a href="https://github.com/nika014" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/nicolas-gabriel-garcez-fernandes-pinto-496a11355" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/nika_garcez" target="_blank">Instagram</a>
 
             </div>
 
         </footer>
+
+        <div id="modal">
+
+    <span id="fechar">&times;</span>
+
+    <img
+
+        id="imagemModal"
+        src="7c78b41f-1a3b-4bf7-9f44-d2d3a4390d8f.jpg"
+        alt="Foto ampliada">
+
+</div>
+
+<script src="script.js"></script>
+
     </body>
 </head>
 </html>
