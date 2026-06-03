@@ -290,8 +290,6 @@ button a {
 
     font-size: 3rem;
     margin-bottom: 20px;
-    text-decoration: none;
-    color: white;
 
 }
 
@@ -300,8 +298,6 @@ button a {
     font-size: 1.2rem;
     margin-bottom: 30px;
     line-height: 1.6;
-    text-decoration: none;
-    color: white;
 }
 
 .hero img {
