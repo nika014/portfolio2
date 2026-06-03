@@ -139,10 +139,33 @@ nav a:hover {
 
         flex-direction: column;
         gap: 15px;
-    }    
+    }   
+    
+    form {
+
+        width: 100%;
+
+    }
+
+    input, textarea, button {
+
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    nav { 
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
 
     .sobre {
 
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
@@ -155,10 +178,45 @@ nav a:hover {
 
     .hero {
 
-        flex-direction: column-reverse;
+        padding: 40px 20px;
+        flex-direction: column;
         text-align: center;
 
     }
+
+    .hero img {
+
+        width: 130px;
+
+    }
+
+    .skills {
+
+        justify-content: center;
+
+    }
+
+    .cards {
+
+        flex-direction: column;
+
+    }
+
+    .card {
+
+        width: 100%;
+
+    }
+
+    .redes {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    
+
 }
 
 html {
@@ -426,6 +484,5 @@ button a {
     cursor: pointer;
 
 }
-
 
 
