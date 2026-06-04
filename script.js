@@ -1,4 +1,4 @@
-const foto = document.getElementById("fotoPerfil");
+const foto = document.getElementById("fotoPerfilHero");
 
 const modal = document.getElementById("modal");
 
