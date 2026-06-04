@@ -23,8 +23,6 @@ modal.addEventListener ("click", function(event) {
 
 });
 
-const modal = document.getElementById("modal");
-
 console.log(foto);
 console.log(modal);
 console.log(fechar);

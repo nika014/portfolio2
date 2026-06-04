@@ -101,6 +101,12 @@ nav a:hover {
 
 }
 
+.contato h2 {
+
+    text-align: center;
+
+}
+
 .cards {
 
     display: flex;
@@ -144,106 +150,135 @@ nav a:hover {
 
 @media (max-width: 768px) {
 
+    body {
+
+        font-size: 14px;
+    }
+
     header {
 
         flex-direction: column;
-        gap: 15px;
-    } 
-    
-    header h1 {
-
-        font-size: 1.8rem;
+        gap: 12px;
+        padding: 15px;
         text-align: center;
     }
 
-    
-    form {
+    header h1 {
 
-        width: 100%;
-
+        font-size: 1.7rem;
+        line-height: 1.2;
     }
 
-    input, textarea, button {
-
-        width: 100%;
-        box-sizing: border-box;
-
-    }
-
-    nav { 
+    nav {
 
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-
+        gap: 12px;
+        width: 100%;
     }
 
-    .sobre {
+    nav a {
 
-        display: flex;
-        flex-direction: column;
+        width: 100%;
         text-align: center;
-    }
-
-    .sobre img {
-
-        width: 120px;
-
+        padding: 10px;
     }
 
     .hero {
 
-        padding: 30px 15px;
         flex-direction: column;
         text-align: center;
-
+        padding: 25px 15px;
+        gap: 20px;
     }
 
     .hero-texto h2 {
 
-        font-size: 2rem;
+        font-size: 1.8rem;
+        line-height: 1.2;
     }
 
     .hero-texto p {
-        font-size: 1rem;
 
+        font-size: 0.95rem;
+        line-height: 1.5;
     }
-
 
     .hero img {
 
-        width: 130px;
+        width: 110px;
+    }
 
+    section {
+
+        padding: 30px 15px;
+    }
+
+    section h2 {
+
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .sobre {
+
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .sobre img {
+
+        width: 100px;
     }
 
     .skills {
 
         justify-content: center;
-
+        gap: 10px;
     }
 
     .cards {
 
         flex-direction: column;
-
+        gap: 15px;
     }
 
     .card {
 
         width: 100%;
+        padding: 15px;
+    }
 
+    form {
+
+        width: 100%;
+    }
+
+    input, textarea, button {
+
+        width: 100%;
+        font-size: 16px;
+    }
+
+    textarea {
+
+        min-height: 120px;
     }
 
     .redes {
 
         flex-direction: column;
         align-items: center;
-
+        gap: 10px;
     }
 
-    
+    footer {
 
+        padding: 15px;
+        text-align: center;
+    }
 }
 
 html {
@@ -373,7 +408,6 @@ button a {
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 20px;
-    justify-content: center;
 
 }
 
